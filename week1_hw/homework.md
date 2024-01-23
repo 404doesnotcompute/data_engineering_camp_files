@@ -7,6 +7,16 @@
 #### Question 2 Answer: 
 ```
 docker run -it --entrypoint=bash python:3.9
+
+root@5da61a698fa8:/# pip list
+Package    Version
+---------- -------
+pip        23.0.1
+setuptools 58.1.0
+wheel      0.42.0
+
+[notice] A new release of pip is available: 23.0.1 -> 23.3.2
+[notice] To update, run: pip install --upgrade pip
 ```
 
 #### Question 3 Answer: 
